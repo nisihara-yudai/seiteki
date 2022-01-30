@@ -1,0 +1,92 @@
+/* 強調テキスト */
+.discount {
+    font-size: 25px;
+}
+
+strong.people {
+    color: red;
+    font-size: 50px;
+}
+
+/* マーカーテキスト */
+span.underline {
+    background: linear-gradient(transparent 65%, yellow 15%);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* リンク */
+.detail {
+    color: blue;
+    margin: 20px;
+}
+
+/* 下線見出し */
+.gaiyou01 {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: dashed 2px black;
+    width: 31%;
+    margin-bottom: 10px;
+}
+
+/* 左線見出し */
+.gaiyou02 {
+    border-left: 5px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: #1111;
+}
+
+/* 両サイド線見出し */
+.gaiyou03 {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gaiyou03::before, .gaiyou03::after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #444444;   
+}
+
+.gaiyou03::before{
+  margin-left: 10px;
+}
+
+.gaiyou03::after{
+  margin-right: 10px;
+}
+
+/* ナビ付きヘッダー */
+.nav01 {
+    display: flex;
+    color: #fff;
+    background-color: black;
+}
+
+ul.navigation01 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a.btn01 {
+    color: #fff;
+    text-decoration: none;
+}
+
+li.sub-title01 {
+    width: 100px;
+    right: 0;
+}
+
+
+
+
