@@ -68,12 +68,21 @@ span.underline {
     display: flex;
     color: #fff;
     background-color: black;
+    justify-content: space-between;
+}
+
+h1.title01 {
+    padding-left: 10px;
+}
+
+li.sub-title01 {
+    width: 100px;
+    right: 0;
 }
 
 ul.navigation01 {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     list-style: none;
 }
 
@@ -82,10 +91,144 @@ a.btn01 {
     text-decoration: none;
 }
 
-li.sub-title01 {
+.nav02 {
+    text-align: center;
+    background: #000;
+}
+
+h1.title02 {
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+ul.navigation02 {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+li.sub-title02 {
+    width: 100px;
+}
+
+a.btn02 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav03 {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+h1.title03 {
+    padding-top: 20px;
+}
+
+ul.navigation03 {
+    list-style: none;
+    color: #fff;
+    align-items: center;display: flex;
+    justify-content: center;
+}
+
+li.sub-title03 {
+    width: 100px;
+}
+
+a.btn03 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
+.nav04 {
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+h1.title04 {
+    padding-left: 10px;
+}
+
+.move04 {
+    display: flex;
+    padding-top: 20px;
+}
+
+ul.navigation04 {
+    list-style: none;
+    color: #fff;
+    display: flex;
+}
+
+li.sub-title04 {
     width: 100px;
     right: 0;
 }
+
+a.btn04 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* カード */
+/* 画像なしカード */
+.card {
+    border: 2px solid rgb(179, 179, 179);
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.coachtech {
+    font-size: 26px;
+}
+
+p.introduce {
+    font-size: 18px;
+}
+
+.introduce01 {
+    text-align: center;
+}
+
+a.detail01 {
+    color: #FD2;
+    text-decoration: none;
+}
+
+/* 複数画像ありカード */
+.much_pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+img.pictures {
+    width: 100%;
+    background-color: #0CE;
+}
+
 
 
 
