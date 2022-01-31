@@ -192,9 +192,9 @@ a.btn04 {
 /* 画像なしカード */
 .card {
     border: 2px solid rgb(179, 179, 179);
-    width: 50%;
+    width: 45%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 10px 20px;
 }
 
 .coachtech {
@@ -217,16 +217,83 @@ a.detail01 {
 /* 複数画像ありカード */
 .much_pictures {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .picture {
     border: 1px solid rgb(179, 179, 179);
+    width: 160px;
 }
 
 img.pictures {
     width: 100%;
     background-color: #0CE;
+}
+
+.explain {
+    padding: 10px;
+}
+
+p.date {
+    font-size: 14px;
+}
+
+.list01{
+    margin: 20px;
+    border: 2px solid #000;
+    background-color: rgb(224, 224, 224);
+    width: 200px;
+    border-radius: 5%;
+}
+
+.List01{
+    margin-bottom: 20px;
+}
+
+.LIST02{
+    display: flex;
+    list-style: none;
+    /* flex-direction: row; */
+}
+
+.List02{
+    width: 15%;
+}
+
+.price_plan{
+    border: 1px solid rgb(155, 149, 149);
+    margin: 23px;
+    width: 60%;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.plan01{
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+    font-size: 18px;
+    border-left: rgb(187, 187, 187);
+}
+
+.plan02{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-left: red;
+}
+
+.plan03{
+    background-color: rgba(168, 144, 8, 0.575);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.price{
+    border-right: rgb(187, 187, 187);
+    padding: 10px;
+    font-weight: bold;
 }
 
 
