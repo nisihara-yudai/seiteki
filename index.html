@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,14 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <!-- テキスト -->
   <!-- 強調テキスト -->
   <div class="discount">
     <p><strong class="people">5</strong>名様</p>
   </div>
-  
+
   <!-- マーカーテキスト -->
   <div class="free"><span class="underline">今なら無料</span></div>
 
@@ -104,7 +106,7 @@
       <a href="#" class="detail01">詳細はこちら!</a>
     </div>
   </div>
-  
+
   <!-- 複数画像ありカード -->
   <div class="much_pictures">
     <div class="picture">
@@ -131,9 +133,9 @@
     <div class="picture">
       <img src="img/part.png" alt="" class="pictures">
       <div class="explain">
-    <h3>COACHTECH</h3>
-    <p class="date">2020年11月17日</p>
-</div>
+        <h3>COACHTECH</h3>
+        <p class="date">2020年11月17日</p>
+      </div>
     </div>
   </div>
 
@@ -180,7 +182,7 @@
   </table>
 
   <!-- 企業概要 -->
-  <table class="company detail">
+  <table class="company detail" border="1">
     <h2 class="company detail01">企業概要</h2>
     <tr>
       <th class="title">会社名</th>
@@ -202,28 +204,40 @@
 
   <!-- フォーム -->
   <table class="form_format">
-    <tr>
-      <td class="title01"><span class="must">必須</span>会社名</td>
-      <input type="text" class="form" placeholder="例) 株式会社estra">
-    </tr>
-    <tr>
-      <td class="title01"><span class="must">必須</span>氏名</td>
-      <input type="text" class="form" placeholder="例) 山田太郎">
-    </tr>
-    <tr>
-      <td class="title01"><span class="must">必須</span>電話番号</td>
-      <input type="text" class="form" placeholder="例) 090-1234-5678">
-    </tr>
-    <tr>
-      <td class="title01"><span class="must">必須</span>メールアドレス</td>
-      <input type="email" class="form" placeholder="例) test@example.com">
-    </tr>
-    <tr>
-      <td class="title01"><span class="must">必須</span>お問い合わせ内容</td>
-      <input type="textarea" class="form">
-    </tr>
-    <input type="submit" class="send" placeholder="送信する">
+    <tbody>
+      <tr>
+        <td class="title01"><span class="must">必須</span>会社名
+          <input type="text" class="form" placeholder="例) 株式会社estra">
+        </td>
+  
+      </tr>
+      <tr>
+        <td class="title01"><span class="must">必須</span>氏名
+          <input type="text" class="form" placeholder="例) 山田 太郎">
+        </td>
+  
+      </tr>
+      <tr>
+        <td class="title01"><span class="must">必須</span>電話番号
+          <input type="text" class="form" placeholder="090-1234-5678">
+        </td>
+  
+      </tr>
+      <tr>
+        <td class="title01"><span class="must">必須</span>メールアドレス
+          <input type="email" class="form" placeholder="test@example.com">
+        </td>
+  
+      </tr>
+      <tr>
+        <td class="title01"><span class="must">必須</span>お問い合わせ内容
+          <textarea></textarea>
+        </td>
+  
+      </tr>
+    </tbody><input type="submit" class="send" placeholder="送信する">
   </table>
 
 </body>
+
 </html>

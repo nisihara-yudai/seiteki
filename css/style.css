@@ -296,6 +296,16 @@ p.date {
     font-weight: bold;
 }
 
+th.title {
+    background: #3CF;
+    padding: 10px;
+    color: #000;
+}
+
+td.sub {
+    color: #000;
+    padding-left: 10px;
+}
 
 
 
